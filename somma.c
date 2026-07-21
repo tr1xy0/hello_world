@@ -15,4 +15,5 @@ double massimo (int a, double b, double c) {
 }
  
 int main(){
+    double a = somma (1, 5.5, 7.2);
 }
