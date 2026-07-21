@@ -13,3 +13,6 @@ double massimo (int a, double b, double c) {
     if (temp > c) return temp;
     else return c;
 }
+ 
+int main(){
+}
