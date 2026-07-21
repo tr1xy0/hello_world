@@ -9,8 +9,8 @@ double media (int a, double b, double c) {
 double massimo (int a, double b, double c) {
     double temp = 0;
     if (a >= b) temp = a;
-    else if (b > a) temp = b;
-    if (temp > c) return temp;
+    else temp = b;
+    if (temp >= c) return temp;
     else return c;
 }
  
